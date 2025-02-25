@@ -2,9 +2,9 @@ version: 0.2
 
 env:
   parameter-store:
-    DOCKER_REGISTRY_USERNAME: /docker-creds/username
-    DOCKER_REGISTRY_PASSWORD: /docker-creds/password
-    DOCKER_REGISTRY_URL: /docker-registry/url
+    DOCKER_REGISTRY_USERNAME: docker_uname
+    DOCKER_REGISTRY_PASSWORD: docker_pwd
+    DOCKER_REGISTRY_URL: docker_registry
 phases:
   install:
     runtime-versions:
