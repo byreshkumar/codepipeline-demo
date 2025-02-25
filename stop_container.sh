@@ -7,4 +7,4 @@ sudo su - root
 #docker rm $(docker ps -a -q)
 containerid = `docker ps | awk -f " " '{print $1}'`
 docker rm -f $containerid
-echo "done"
+echo "donee"
